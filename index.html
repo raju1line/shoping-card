@@ -4,9 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
     <title>shoping-card</title>
   </head>
   <body>
-    <p>sopiing-card</p>
+    <div class="container card-body">
+      <div class="colum product-item">
+        <div class="row">
+          <div class="col-md-2 img1">
+            <img class="img-fluid" src="img/apple-iphone-12-2.jpg" alt="" />
+          </div>
+          <div class="col-md-4 tex-center tex-area">
+            <p>iphone 11 pro 128GB black</p>
+          </div>
+          <div class="col-md-6 number-section">
+            <div class="input-group number-spinner">
+              <button id="discrise-cover" class="btn btn-default">
+                <i class="bi bi-dash-lg"></i>
+              </button>
+              <input
+                id="cover-contity"
+                type="text"
+                class="text-center btn btn-default"
+                value="1"
+              />
+              <button id="cover-incrise" class="btn btn-default">
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <h6>$ <span id="tota-value">1212</span></h6>
+              <img class="img-fulid" src="img/clipart1829933.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-item2">
+        <div class="row">
+          <div class="col-md-2 img2">
+            <img class="img-fluid" src="img/apple-iphone-12-r1.jpg" alt="" />
+          </div>
+          <div class="col-md-4 tex-center tex-area">
+            <p>iphone 11 pro 128GB back cover</p>
+          </div>
+          <div class="col-md-6 number-section">
+            <div class="input-group number-spinner">
+              <button class="btn btn-default">
+                <i class="bi bi-dash-lg"></i>
+              </button>
+              <input
+                type="text"
+                class="text-center btn btn-default"
+                value="1"
+              />
+              <button class="btn btn-default">
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <h6>$59</h6>
+              <img class="img-fulid" src="img/clipart1829933.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container price-area">
+        <div class="price-item row">
+          <div class="col-md-5">
+            <h5>subtotal</h5>
+            <h5>tax</h5>
+            <h5>total</h5>
+          </div>
+          <div class="col-md-7 total-perice">
+            <h5>$1212</h5>
+            <h5>$00</h5>
+            <h5>$1212</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
   </body>
 </html>

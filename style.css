@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card-body {
+  background-color: rgb(236, 236, 236);
+  font-family: sans-serif;
+}
+.img1 img {
+  width: 148px;
+  padding: 17px;
+}
+.product-item {
+  background-color: white;
+  border-radius: 10px;
+}
+.tex-area p {
+  margin-top: 46px;
+}
+.number-section {
+  margin-top: 10px;
+}
+.number-spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 5px;
+}
+.number-spinner input {
+  width: 44px;
+  background-color: rgb(240, 240, 240);
+}
+.number-spinner img {
+  width: 10px;
+  height: 10px;
+  height: 12px;
+  margin-top: 12px;
+}
+.number-spinner h6 {
+  margin-top: 10px;
+  margin-right: 18px;
+}
+.number-spinner button {
+  color: black;
+}
+.product-item2 {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.img2 img {
+  width: 109px;
+  padding: 17px;
+}
+.total-perice {
+  text-align: center;
+}
+.price-area {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 118px;
+  padding: 17px;
+}
